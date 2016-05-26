@@ -1,0 +1,34 @@
+{
+    "name": "phancy/phancy-project",
+    "description": "A Phancy project template.",
+    "type": "project",
+    "keywords": ["phancy", "project"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/phancy/phancy-project/issues",
+        "source": "https://github.com/phancy/phancy-project"
+    },
+    "authors": [
+        {
+            "name": "Joel Jacob",
+            "email": "joeljoeljoel@gmail.com"
+        },
+        {
+            "name": "Jason McCreary",
+            "email": "jason@pureconcepts.net"
+        },
+        {
+            "name": "Lark Mullins",
+            "email": "larkmullins@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "phancy/phancy": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Api\\": "api/"
+        }
+    }
+}
